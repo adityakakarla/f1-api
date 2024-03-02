@@ -37,4 +37,4 @@ class Schedule(Resource):
 api.add_resource(Schedule, "/schedule")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
